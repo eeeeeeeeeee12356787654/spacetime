@@ -44,13 +44,14 @@ var planetNuke = 0; var planetNukeTitaniumCost = 486000; var planetNukeSiliconCo
 var lava = 0; var lavaStorage = 50; var lavaNextStorage = 100; var lavaps = 0;
 var crucible = 0; var crucibleGemCost = 8000; var crucibleLunariteCost = 4000; var crucibleOutput = 100;
 var extractor = 0; var extractorLunariteCost = 16000; var extractorTitaniumCost = 12000; var extractorSiliconCost = 6000; var extractorEnergyInput = 58; var extractorOutput = 700;
-var extruder = 0; var extruderLunariteCost = 69000; var extruderTitaniumCost = 57000; var extruderSiliconCost = 39000; var extruderEnergyInput = 237; var extruderOutput = 43;
+var extruder = 0; var extruderLunariteCost = 69000; var,o extruderTitaniumCost = 57000; var extruderSiliconCost = 39000; var extruderEnergyInput = 237; var extruderOutput = 43;
 var veluptuator = 0; var veluptuatorLunariteCost = 298000; var veluptuatorGoldCost = 121000; var veluptuatorMeteoriteCost = 750; var veluptuatorEnergyInput = 689; var veluptuatorOutput = 187;
 var condensator = 0; var condensatorLunariteCost = 288000; var condensatorGemCost = 210000; var condensatorIceCost = 238000; var condensatorEnergyInput = 4142; var condensatorOutput = 2103;
 
 // Oil
 var oil = 0; var oilStorage = 50; var oilNextStorage = 100; var oilps = 0;
-var pump = 0; var pumpMetalCost = 60; var pumpGemCost = 20; var pumpOutput = 1;
+var pump = 0; var pumpMetalCost = 60; var pumpGemCost = 20; var pumpOutput = 100
+;
 var pumpjack = 0; var pumpjackMetalCost = 250; var pumpjackGemCost = 80; var pumpjackOilCost = 50; var pumpjackEnergyInput = 4; var pumpjackOutput = 10;
 var oilField = 0; var oilFieldLunariteCost = 2400; var oilFieldTitaniumCost = 2700; var oilFieldSiliconCost = 3900; var oilFieldEnergyInput = 12; var oilFieldOutput = 603;
 var oilRig = 0; var oilRigLunariteCost = 19400; var oilRigTitaniumCost = 16800; var oilRigMeteoriteCost = 760; var oilRigEnergyInput = 44; var oilRigOutput = 246;

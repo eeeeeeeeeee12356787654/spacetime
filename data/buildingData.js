@@ -152,7 +152,7 @@ Game.buildingData = (function () {
         desc: 'Pulverizes Uranium for easy transportation out of deep mineshafts.',
         resource: 'uranium',
         resourcePerSecond: {
-            'uranium': 10000000
+            'uranium': 1
         },
         cost: {
             'lunarite': 4,
@@ -167,7 +167,7 @@ Game.buildingData = (function () {
         resource: 'uranium',
         resourcePerSecond: {
             'energy': -40,
-            'uranium': 9
+            'uranium': 10
         },
         cost: {
             'lunarite': 10000,
@@ -182,7 +182,7 @@ Game.buildingData = (function () {
         resource: 'uranium',
         resourcePerSecond: {
             'energy': -180,
-            'uranium': 61
+            'uranium': 100
         },
         cost: {
             'lunarite': 21700,
@@ -197,7 +197,7 @@ Game.buildingData = (function () {
         resource: 'uranium',
         resourcePerSecond: {
             'energy': -436,
-            'uranium': 235
+            'uranium': 1000
         },
         cost: {
             'lunarite': 93100,
@@ -289,7 +289,7 @@ Game.buildingData = (function () {
         resource: 'oil',
         resourcePerSecond: {
             'energy': -4,
-            'oil': 10
+            'oil': 100
         },
         cost: {
             'metal': 250,
@@ -304,7 +304,7 @@ Game.buildingData = (function () {
         resource: 'oil',
         resourcePerSecond: {
             'energy': -12,
-            'oil': 63
+            'oil': 500
         },
         cost: {
             'lunarite': 2400,
@@ -335,7 +335,7 @@ Game.buildingData = (function () {
         resource: 'metal',
         unlocked: true,
         resourcePerSecond: {
-            'metal': 100
+            'metal': 1000
         },
         cost: {
             'metal': 10,
@@ -349,7 +349,7 @@ Game.buildingData = (function () {
         resource: 'metal',
         resourcePerSecond: {
             'energy': -2,
-            'metal': 8
+            'metal': 100
         },
         cost: {
             'metal': 160,
@@ -395,7 +395,7 @@ Game.buildingData = (function () {
         resource: 'gem',
         unlocked: true,
         resourcePerSecond: {
-            'gem': 100
+            'gem': 1000
         },
         cost: {
             'metal': 15,
@@ -518,7 +518,7 @@ Game.buildingData = (function () {
         resource: 'wood',
         unlocked: true,
         resourcePerSecond: {
-            'wood': 100
+            'wood': 1000
         },
         cost: {
             'metal': 10,
@@ -577,7 +577,7 @@ Game.buildingData = (function () {
         desc: 'This type of blowtorch instantly turns sand into Silicon, but only on a small scale. To make it, extraterrestrial resources are required.',
         resource: 'silicon',
         resourcePerSecond: {
-            'silicon': 100
+            'silicon': 1000
         },
         cost: {
             'lunarite': 150,
@@ -640,7 +640,7 @@ Game.buildingData = (function () {
         desc: 'Bribe local workers to mine your Lunarite.',
         resource: 'lunarite',
         resourcePerSecond: {
-            'lunarite': 100
+            'lunarite': 1000
         },
         cost: {
             'gem': 500
@@ -756,7 +756,7 @@ Game.buildingData = (function () {
         desc: 'Hire explorers to search for Titanium on the surface, uncovered by winds on Mars.',
         resource: 'titanium',
         resourcePerSecond: {
-            'titanium': 100
+            'titanium': 1000
         },
         cost: {
             'gem': 1000
@@ -814,7 +814,7 @@ Game.buildingData = (function () {
         desc: 'Powered by Methane, this droid scouts the asteroids for gold deposits.',
         resource: 'gold',
         resourcePerSecond: {
-            'gold': 100
+            'gold': 1000
         },
         cost: {
             'gem': 200,
@@ -873,7 +873,7 @@ Game.buildingData = (function () {
         desc: 'The Scout Ship searches through the asteroid field for pieces of silver embedded in asteroids.',
         resource: 'silver',
         resourcePerSecond: {
-            'silver': 100
+            'silver': 1000
         },
         cost: {
             'lunarite': 100,

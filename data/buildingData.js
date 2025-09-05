@@ -469,8 +469,8 @@ Game.buildingData = (function () {
         resource: 'charcoal',
         resourcePerSecond: {
             'energy': -3,
-            'wood': -6,
-            'charcoal': 4
+            'wood': 1,
+            'charcoal': 100
         },
         cost: {
             'metal': 80,
@@ -485,8 +485,8 @@ Game.buildingData = (function () {
         resource: 'charcoal',
         resourcePerSecond: {
             'energy': -13,
-            'wood': -56,
-            'charcoal': 53
+            'wood': -100,
+            'charcoal': 100
         },
         cost: {
             'lunarite': 3500,

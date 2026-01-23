@@ -74,7 +74,7 @@ var diamondChamber = 0; var diamondChamberUraniumCost = 181000; var diamondChamb
 
 // Charcoal
 var charcoal = 0; var charcoalStorage = 50; var charcoalNextStorage = 100; var charcoalps = 0; var charcoalToggled = true;
-var woodburner = 0; var woodburnerMetalCost = 10; var woodburnerWoodCost = 5; var woodburnerWoodInput = 2; var woodburnerOutput = 100;
+var woodburner = 0; var woodburnerMetalCost = 10; var woodburnerWoodCost = 5; var woodburnerWoodInput = 1; var woodburnerOutput = 100;
 var furnace = 0; var furnaceMetalCost = 80; var furnaceWoodCost = 40; var furnaceOilCost = 100; var furnaceEnergyInput = 3; var furnaceWoodInput = 6; var furnaceOutput = 4;
 var kiln = 0; var kilnLunariteCost = 3500; var kilnGemCost = 6200; var kilnSiliconCost = 3800; var kilnEnergyInput = 13; var kilnWoodInput = 56; var kilnOutput = 53;
 var fryer = 0; var fryerLunariteCost = 15800; var fryerLavaCost = 12500; var fryerMeteoriteCost = 560; var fryerEnergyInput = 34; var fryerWoodInput = 148; var fryerOutput = 210;
